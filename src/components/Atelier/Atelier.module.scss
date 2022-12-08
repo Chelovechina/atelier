@@ -1,0 +1,40 @@
+@import "./../../scss/variables";
+
+.atelier {
+  height: 602px;
+  background: url("./../../assets/images/bg.png");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+}
+.subtitle {
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: $yellow;
+}
+.title {
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: $white;
+  margin-bottom: 35px;
+}
+.btn {
+  text-decoration: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: $dark-brown;
+  padding: 21px 28px 18px;
+  background-color: $yellow;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $white;
+  }
+}
