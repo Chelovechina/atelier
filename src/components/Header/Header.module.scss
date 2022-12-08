@@ -1,0 +1,54 @@
+@import "./../../scss/variables";
+
+.header {
+  background-color: $dark-brown;
+  padding: 0 30px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+}
+.navWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.brand {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 28px;
+  color: $yellow;
+  margin-right: 42px;
+}
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navLink {
+  text-decoration: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: $gray;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: $yellow;
+  }
+}
+.btn {
+  text-decoration: none;
+  padding: 15px 25px 13px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: $yellow;
+  border: 1px solid $yellow;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    color: $dark-brown;
+    background-color: $yellow;
+  }
+}
