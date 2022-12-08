@@ -1,0 +1,42 @@
+@import "./../../scss/variables";
+
+.templateSection {
+  margin: 120px 0 121px;
+}
+.subtitle {
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $gray;
+  margin-bottom: 10px;
+}
+.title {
+  text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+  color: $yellow;
+  margin-bottom: 60px;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.link {
+  border: 1px solid $brown;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 41px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $gray;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.025);
+  }
+}
