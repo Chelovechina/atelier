@@ -5,6 +5,7 @@ import Image from './components/Image/Image';
 import Services from './components/Services/Services';
 import Follow from './components/Follow/Follow';
 import Subscribe from './components/Subscribe/Subscribe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Services />
         <Follow />
         <Subscribe />
+        <Footer />
       </main>
     </>
   );

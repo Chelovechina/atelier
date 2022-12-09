@@ -1,0 +1,33 @@
+@import "./../../scss/variables";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-top: 1px solid $brown;
+}
+.powered {
+  font-size: 12px;
+  line-height: 22px;
+  color: $gray;
+}
+.span {
+  color: $yellow;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.gap {
+  font-size: 14px;
+  line-height: 30px;
+  color: $brown;
+}
+.link {
+  text-decoration: none;
+  color: $yellow;
+  font-size: 11px;
+  line-height: 30px;
+}
