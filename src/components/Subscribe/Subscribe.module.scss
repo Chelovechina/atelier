@@ -1,0 +1,84 @@
+@import "./../../scss/variables";
+
+.subscribe {
+  margin-bottom: 44px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  max-width: 520px;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: $yellow;
+  margin-bottom: 20px;
+}
+.text {
+  font-size: 12px;
+  line-height: 28px;
+  color: $gray;
+  margin-bottom: 82px;
+}
+.input {
+  width: 420px;
+  height: 59px;
+  background-color: $dark-brown;
+  border: 1px solid $brown;
+  padding-left: 20px;
+  font-family: "Old Standard TT", serif;
+  color: $gray;
+  font-size: 16px;
+}
+.btn {
+  width: 420px;
+  height: 50px;
+  background-color: $yellow;
+  border: none;
+  font-family: "Old Standard TT", serif;
+  color: $dark-brown;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 31px;
+
+  &:hover {
+    background-color: $white;
+  }
+}
+.info {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $gray;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.span {
+  color: $yellow;
+}
+.link {
+  text-decoration: none;
+  color: $yellow;
+}
+.socialList {
+  display: flex;
+  gap: 8px;
+}
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  border: 1px solid $brown;
+  transition: border 0.3s ease-in-out;
+
+  &:hover {
+    border-color: $yellow;
+  }
+}
+.socialImg {
+  width: 20px;
+  height: 20px;
+}

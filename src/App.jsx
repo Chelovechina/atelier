@@ -4,6 +4,7 @@ import Template from './components/Template/Template';
 import Image from './components/Image/Image';
 import Services from './components/Services/Services';
 import Follow from './components/Follow/Follow';
+import Subscribe from './components/Subscribe/Subscribe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Image />
         <Services />
         <Follow />
+        <Subscribe />
       </main>
     </>
   );
