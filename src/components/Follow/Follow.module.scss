@@ -2,6 +2,7 @@
 
 .follow {
   margin-bottom: 120px;
+  padding: 0 20px;
 }
 .list {
   border-top: 1px solid $brown;
@@ -56,5 +57,57 @@
 
   &:hover {
     background-color: $white;
+  }
+}
+
+@media (max-width: 1200px) {
+  .list {
+    justify-content: center;
+    gap: 25px;
+  }
+  .mainItem {
+    width: auto;
+  }
+  .item:first-child,
+  .item:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .follow {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 880px) {
+  .follow {
+    margin-bottom: 60px;
+  }
+  .itemImg {
+    height: 180px;
+  }
+  .mainItem {
+    padding-top: 15px;
+  }
+  .itemInsta {
+    width: 35px;
+    height: 35px;
+    top: -25px;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 770px) {
+  .follow {
+    margin-bottom: 50px;
+  }
+  .item {
+    display: none;
+  }
+  .mainItem {
+    padding-top: 0;
   }
 }

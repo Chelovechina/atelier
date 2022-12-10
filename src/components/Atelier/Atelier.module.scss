@@ -38,3 +38,36 @@
     background-color: $white;
   }
 }
+
+@media (max-width: 1100px) {
+  .atelier {
+    height: 450px;
+    padding-top: 80px;
+  }
+  .title {
+    font-size: 55px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 880px) {
+  .atelier {
+    height: 380px;
+    padding-top: 50px;
+  }
+  .title {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .atelier {
+    height: 300px;
+  }
+  .title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}

@@ -2,6 +2,7 @@
 
 .templateSection {
   margin: 120px 0 121px;
+  padding: 0 20px;
 }
 .subtitle {
   font-size: 12px;
@@ -35,8 +36,85 @@
   text-decoration: none;
   color: $gray;
   transition: transform 0.3s ease-in-out;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $white;
 
   &:hover {
     transform: scale(1.025);
+  }
+}
+
+@media (max-width: 1200px) {
+  .list {
+    grid-template-columns: repeat(2, 387px);
+    justify-content: space-around;
+  }
+  .link {
+    padding: 10px 0 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .templateSection {
+    margin: 90px 0 95px;
+  }
+  .subtitle {
+    margin-bottom: 8px;
+  }
+  .title {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 880px) {
+  .templateSection {
+    margin: 50px 0 55px;
+  }
+  .subtitle {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .title {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 770px) {
+  .templateSection {
+    margin: 60px 0 65px;
+  }
+  .list {
+    grid-template-columns: repeat(1, 387px);
+    justify-content: center;
+  }
+  .subtitle {
+    line-height: 10px;
+  }
+  .title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .link {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .list {
+    grid-template-columns: repeat(1, auto);
   }
 }
